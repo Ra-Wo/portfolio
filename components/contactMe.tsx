@@ -30,8 +30,8 @@ export default function ContactMe() {
 				<img src='/images/aboutme-background.svg' className='absolute z-[0] opacity-20 top-0' />
 				<div className='w-full max-w-3xl flex flex-col gap-7 items-center justify-center'>
 					<p className='text-foreground-200 dark:text-foreground-800'>
-						I'm currently looking for new opportunities, my inbox is always open. Whether you have a
-						question or just want to say hi, I'll try my best to get back to you!
+						I{"'"}m currently looking for new opportunities, my inbox is always open. Whether you have a
+						question or just want to say hi, I{"'"}ll try my best to get back to you!
 					</p>
 					<a href='mailto:rashidoudouch@gmailcom'>
 						<Button

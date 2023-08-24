@@ -9,7 +9,7 @@ export default function Projects() {
 			id='projects'
 		>
 			{projectsData.reverse().map((project: ProjectType) => (
-				<Project project={project} />
+				<Project project={project} key={project.id} />
 			))}
 		</section>
 	)

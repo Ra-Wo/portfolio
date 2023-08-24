@@ -14,9 +14,9 @@ export default function AboutMe() {
 				<img src='/images/background-programming-langs.svg' className='absolute z-[0] opacity-80 top-0' />
 				<div className='[&>p]:py-1 w-full max-w-3xl'>
 					<p>
-						Hey there, I'm <span className='text-primary'>Rachid Oudouch</span>, a passionate web developer
-						from Morocco. My journey into the world of coding has been an exhilarating ride, and I'm excited
-						to offer you a glimpse of it.
+						Hey there, I{"'"}m <span className='text-primary'>Rachid Oudouch</span>, a passionate web
+						developer from Morocco. My journey into the world of coding has been an exhilarating ride, and I
+						{"'"}m excited to offer you a glimpse of it.
 					</p>
 					<p>
 						Armed with a versatile toolkit of skills, I thrive in languages like{' '}
@@ -26,12 +26,12 @@ export default function AboutMe() {
 					</p>
 					<p>
 						My educational voyage has steered me to the esteemed{' '}
-						<span className='text-primary'>1337 Coding School (42 Network)</span>, where I'm devoted to
+						<span className='text-primary'>1337 Coding School (42 Network)</span>, where I{"'"}m devoted to
 						refining my craft.
 					</p>
 					<p>
-						I've been fortunate to partake in a diverse range of projects, each contributing to my growth
-						and the diversification of my skill set.
+						I{"'"}ve been fortunate to partake in a diverse range of projects, each contributing to my
+						growth and the diversification of my skill set.
 					</p>
 				</div>
 			</div>
