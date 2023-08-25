@@ -8,7 +8,7 @@ export default function Projects() {
 			className='max-w-3xl sm:mt-[75px] min-h-[70vh] sm:min-h-screen flex flex-col items-center justify-center gap-10'
 			id='projects'
 		>
-			{projectsData.reverse().map((project: ProjectType) => (
+			{projectsData.map((project: ProjectType) => (
 				<Project project={project} key={project.id} />
 			))}
 		</section>
