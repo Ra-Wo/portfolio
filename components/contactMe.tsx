@@ -15,7 +15,8 @@ export default function ContactMe() {
 				<h1 className='text-3xl sm:text-4xl lg:text-5xl font-black text-foreground-200 dark:text-foreground-800'>
 					Get In Touch<span className='text-primary'>.</span>
 				</h1>
-				<div className='flex gap-4'>
+				<img src='/images/aboutme-background.svg' className='absolute z-[0] opacity-20 top-0' />
+				<div className='flex gap-4 z-10 relative'>
 					<Link isExternal href={siteConfig.links.linkden} aria-label='Linkden'>
 						<LinkdinIcon className='text-default-200 dark:text-foreground-800' />
 					</Link>
@@ -27,7 +28,6 @@ export default function ContactMe() {
 					</Link>
 				</div>
 
-				<img src='/images/aboutme-background.svg' className='absolute z-[0] opacity-20 top-0' />
 				<div className='w-full max-w-3xl flex flex-col gap-7 items-center justify-center'>
 					<p className='text-foreground-200 dark:text-foreground-800'>
 						I{"'"}m currently looking for new opportunities, my inbox is always open. Whether you have a
