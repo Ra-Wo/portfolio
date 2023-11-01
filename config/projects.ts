@@ -29,7 +29,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Rest aurant POS System',
+		title: 'Restaurant POS System',
 		description: `Developed and implemented a custom POS system for a busy restaurant to streamline operations and improve customer service. Utilized Next.js and strapi.io to build a user-friendly interface that allowed for quick and accurate order processing. Collaborated with the restaurant staff to gather requirements and design a system that met their specific needs.`,
 		image: '/images/projects/pos/main.png',
 		github: null,
